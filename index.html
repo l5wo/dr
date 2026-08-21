@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="حُسـام | Web Designer & Developer"
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b1512"
+    >
+
+    <title>model 02 | Profile</title>
+
+    <!-- Google Font -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         BACKGROUND EFFECTS
+    ========================================== -->
+
+    <div class="background">
+
+        <span class="glow glow-one"></span>
+
+        <span class="glow glow-two"></span>
+
+        <span class="glow glow-three"></span>
+
+        <div class="grid"></div>
+
+    </div>
+
+
+    <!-- =========================================
+         PAGE
+    ========================================== -->
+
+    <main class="page">
+
+
+        <!-- =====================================
+             TOP BAR
+        ====================================== -->
+
+        <header class="top-bar">
+
+            <div class="brand">
+                <span class="brand-dot"></span>
+
+                <span>Digital Profile</span>
+            </div>
+
+
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="تغيير المظهر"
+            >
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+        </header>
+
+
+        <!-- =====================================
+             PROFILE CARD
+        ====================================== -->
+
+        <section class="profile-card">
+
+
+            <!-- Decorative Line -->
+
+            <div class="card-line"></div>
+
+
+            <!-- =================================
+                 PROFILE IMAGE
+            ================================== -->
+
+            <div class="profile-image-wrapper">
+
+                <div class="profile-image-ring"></div>
+
+                <div class="profile-image">
+
+                    <img
+                        id="profileImage"
+                        src="profile.jpg"
+                        alt="صورة حُسـام"
+                    >
+
+                    <div
+                        class="image-placeholder"
+                        id="imagePlaceholder"
+                    >
+
+                        <i class="fa-solid fa-user"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 PROFILE INFORMATION
+            ================================== -->
+
+            <div class="profile-info">
+
+
+                <div class="verified">
+
+                    <span></span>
+
+                    <span>Digital Creator</span>
+
+                </div>
+
+
+                <h1 id="profileName">
+                    حُسـام
+                </h1>
+
+
+                <h2 id="profileJob">
+                    Web Designer & Developer
+                </h2>
+
+
+                <!-- Typing Text -->
+
+                <div class="typing-container">
+
+                    <span id="typingText"></span>
+
+                    <span class="typing-cursor">|</span>
+
+                </div>
+
+
+                <p
+                    class="location"
+                    id="profileLocation"
+                >
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    العراق / دهوك
+
+                </p>
+
+
+            </div>
+
+
+            <!-- =================================
+                 BIO
+            ================================== -->
+
+            <div class="bio">
+
+                <p id="profileBio">
+                    طالب سادس علمي
+                </p>
+
+            </div>
+
+
+            <!-- =================================
+                 SOCIAL LINKS
+            ================================== -->
+
+            <div class="social-section">
+
+                <div class="section-title">
+
+                    <span></span>
+
+                    <p>تواصل معي</p>
+
+                    <span></span>
+
+                </div>
+
+
+                <div class="social-links">
+
+
+                    <!-- Instagram -->
+
+                    <a
+                        href="#"
+                        class="social-link instagram"
+                        data-social="instagram"
+                        aria-label="Instagram"
+                    >
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+
+                    <!-- TikTok -->
+
+                    <a
+                        href="#"
+                        class="social-link tiktok"
+                        data-social="tiktok"
+                        aria-label="TikTok"
+                    >
+
+                        <i class="fa-brands fa-tiktok"></i>
+
+                    </a>
+
+
+                    <!-- Facebook -->
+
+                    <a
+                        href="#"
+                        class="social-link facebook"
+                        data-social="facebook"
+                        aria-label="Facebook"
+                    >
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+
+                    <!-- Telegram -->
+
+                    <a
+                        href="#"
+                        class="social-link telegram"
+                        data-social="telegram"
+                        aria-label="Telegram"
+                    >
+
+                        <i class="fa-brands fa-telegram"></i>
+
+                    </a>
+
+
+                    <!-- YouTube -->
+
+                    <a
+                        href="#"
+                        class="social-link youtube"
+                        data-social="youtube"
+                        aria-label="YouTube"
+                    >
+
+                        <i class="fa-brands fa-youtube"></i>
+
+                    </a>
+
+
+                    <!-- Snapchat -->
+
+                    <a
+                        href="#"
+                        class="social-link snapchat"
+                        data-social="snapchat"
+                        aria-label="Snapchat"
+                    >
+
+                        <i class="fa-brands fa-snapchat"></i>
+
+                    </a>
+
+
+                    <!-- X -->
+
+                    <a
+                        href="#"
+                        class="social-link x-twitter"
+                        data-social="twitter"
+                        aria-label="X"
+                    >
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 ACTION BUTTONS
+            ================================== -->
+
+            <div class="actions">
+
+
+                <!-- Phone -->
+
+                <button
+                    class="action-button phone-button"
+                    id="phoneButton"
+                    type="button"
+                >
+
+                    <span class="action-icon">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                    </span>
+
+                    <span>
+
+                        <small>رقم الهاتف</small>
+
+                        <strong id="phoneText">
+                            +964 7XX XXX XXXX
+                        </strong>
+
+                    </span>
+
+                </button>
+
+
+                <!-- Copy -->
+
+                <button
+                    class="copy-button"
+                    id="copyButton"
+                    type="button"
+                    aria-label="نسخ رقم الهاتف"
+                >
+
+                    <i class="fa-regular fa-copy"></i>
+
+                </button>
+
+            </div>
+
+
+            <!-- =================================
+                 QR CODE
+            ================================== -->
+
+            <div class="qr-section">
+
+                <div class="qr-header">
+
+                    <div>
+
+                        <strong>Digital Card</strong>
+
+                        <span>امسح الكود للوصول السريع</span>
+
+                    </div>
+
+                    <i class="fa-solid fa-qrcode"></i>
+
+                </div>
+
+
+                <div class="qr-container">
+
+                    <img
+                        id="qrImage"
+                        src=""
+                        alt="QR Code"
+                    >
+
+                    <div
+                        class="qr-placeholder"
+                        id="qrPlaceholder"
+                    >
+
+                        <i class="fa-solid fa-qrcode"></i>
+
+                        <span>QR CODE</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 FOOTER
+            ================================== -->
+
+            <footer class="card-footer">
+
+                <strong>HS Studio</strong>
+<span>by</span>
+<span>Made</span>
+        
+            </footer>
+
+
+        </section>
+
+
+        <!-- =====================================
+             PAGE FOOTER
+        ====================================== -->
+
+        <div class="page-footer">
+
+            <span>©</span>
+
+            <span id="year"></span>
+
+            <span>All Rights Reserved</span>
+
+        </div>
+
+
+    </main>
+
+
+    <!-- =========================================
+         TOAST
+    ========================================== -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    >
+
+        <div class="toast-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+        <div>
+
+            <strong>تم النسخ</strong>
+
+            <span>تم نسخ رقم الهاتف بنجاح</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Main JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
