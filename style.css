@@ -893,47 +893,27 @@ body {
 
 
 .social-links {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(7, 1fr);
-
-    gap: 7px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-
 
 .social-link {
-
     position: relative;
-
-    width: 100%;
-    aspect-ratio: 1;
-
+    width: 45px;
+    height: 45px;
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
-    border:
-        1px solid
-        var(--border);
-
+    border: 1px solid var(--border);
     border-radius: 14px;
-
     color: var(--text-secondary);
-
-    background:
-        rgba(255,255,255,0.025);
-
+    background: rgba(255,255,255,0.025);
     text-decoration: none;
-
     transition: var(--transition);
-
 }
-
 
 .social-link i {
 
