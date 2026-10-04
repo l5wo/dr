@@ -43,10 +43,11 @@ const clientData = {
 
     socials: {
 
-        instagram: "https://instagram.com/waadsaeed556?stkn=NmRmMW04NDJoNWt3",
-        tiktok: "https://www.tiktok.com/@waad67551?_r=1&_t=ZS-9AHkRVzv9jK",
+        instagram: "https://instagram.com/waadsaeed556",
+        tiktok: "https://tiktok.com/@waad67551",
         telegram: "https://t.me/Waads81",
-        snapchat: "https://www.snapchat.com/add/user851678228?share_id=G4j7F2PIopA&locale=ar-AE",
+        snapchat: "https://snapchat.com/add/user851678228
+",
     },
 
 
