@@ -33,9 +33,7 @@ const clientData = {
 
     typingTexts: [
         "عيادة طبية",
-        "مُمرض ماهر",
-        "Skilled Nurse",
-       
+        "مُمرض ماهر" 
     ],
 
 
