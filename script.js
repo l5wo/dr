@@ -16,15 +16,15 @@ const clientData = {
        BASIC INFORMATION
     ========================= */
 
-    name: "حُسـام",
+    name: "Dr. Waad Saaed",
 
-    job: "Web Designer & Developer",
+    job: "Skilled Nurse",
 
-    bio: "طالب سادس علمي",
+    bio: "مُمرض ماهر",
 
     location: "العراق / دهوك",
 
-    phone: "+964 7XX XXX XXXX",
+    phone: "+964 ‪750 353 4890",
 
 
     /* =========================
@@ -32,10 +32,10 @@ const clientData = {
     ========================= */
 
     typingTexts: [
-        "Web Designer",
-        "Web Developer",
-        "طالب سادس علمي",
-        "Digital Creator"
+        "عيادة طبية",
+        "مُمرض ماهر",
+        "Skilled Nurse",
+       
     ],
 
 
@@ -45,14 +45,10 @@ const clientData = {
 
     socials: {
 
-        instagram: "",
-        tiktok: "",
-        facebook: "",
-        telegram: "",
-        youtube: "",
-        snapchat: "",
-        twitter: ""
-
+        instagram: "https://instagram.com/waadsaeed556?stkn=NmRmMW04NDJoNWt3",
+        tiktok: "https://tiktok.com/waad67551",
+        telegram: "t.me/@Waads81",
+        snapchat: "https://www.snapchat.com/add/user851678228?share_id=G4j7F2PIopA&locale=ar-AE",
     },
 
 
