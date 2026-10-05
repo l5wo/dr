@@ -20,7 +20,7 @@ const clientData = {
 
     job: "Skilled nurse",
 
-    bio: "ممرض",
+    bio: "خبرة في التمريض والرعاية الطبية | تقديم أفضل خدمة وصحة للمراجعين",
 
     location: "العراق / دهوك",
 
@@ -31,9 +31,11 @@ const clientData = {
        TYPING TEXT
     ========================= */
 
-    typingTexts: [
-        "عيادة طبية",
-        "مُمرض ماهر"
+        typingTexts: [
+        "عيادة طبية وتمريضية",
+        "مُمرض ماهر ومتخصص",
+        "خدمات تضميد ورعاية",
+        "أهلاً وسهلاً بكم"
     ],
 
 
@@ -43,7 +45,7 @@ const clientData = {
 
     socials: {
 
-        instagram: "https://instagram.com/waadsaaed5667",
+        instagram: "https://instagram.com/waadsaaed566",
         tiktok: "https://tiktok.com/@waad67551",
         telegram: "https://t.me/Waads81",
         snapchat: "https://snapchat.com/add/user851678228"
