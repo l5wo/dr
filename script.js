@@ -33,7 +33,7 @@ const clientData = {
 
     typingTexts: [
         "عيادة طبية",
-        "مُمرض ماهر" 
+        "مُمرض ماهر",
     ],
 
 
@@ -46,8 +46,7 @@ const clientData = {
         instagram: "https://instagram.com/waadsaeed556",
         tiktok: "https://tiktok.com/@waad67551",
         telegram: "https://t.me/Waads81",
-        snapchat: "https://snapchat.com/add/user851678228
-",
+        snapchat: "https://snapchat.com/add/user851678228",
     },
 
 
