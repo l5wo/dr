@@ -45,7 +45,7 @@ const clientData = {
 
     socials: {
 
-        instagram: "https://instagram.com/waadsaaed566",
+        instagram: "https://instagram.com/waadsaeed566",
         tiktok: "https://tiktok.com/@waad67551",
         telegram: "https://t.me/Waads81",
         snapchat: "https://snapchat.com/add/user851678228"
