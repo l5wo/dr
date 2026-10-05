@@ -16,11 +16,11 @@ const clientData = {
        BASIC INFORMATION
     ========================= */
 
-    name: "Dr. Waad Saaed",
+    name: "Dr. Waad Saeed",
 
-    job: "Skilled Nurse",
+    job: "Skilled nurse",
 
-    bio: "مُمرض ماهر",
+    bio: "ممرض",
 
     location: "العراق / دهوك",
 
@@ -33,8 +33,7 @@ const clientData = {
 
     typingTexts: [
         "عيادة طبية",
-        "مُمرض ماهر",
-        "Skilled nurse"
+        "مُمرض ماهر"
     ],
 
 
@@ -44,10 +43,11 @@ const clientData = {
 
     socials: {
 
-        instagram: "https://instagram.com/waadsaeed556",
+        instagram: "https://instagram.com/waadsaaed5667",
         tiktok: "https://tiktok.com/@waad67551",
         telegram: "https://t.me/Waads81",
         snapchat: "https://snapchat.com/add/user851678228"
+
     },
 
 
